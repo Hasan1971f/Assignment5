@@ -12,6 +12,35 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="lexend-font">
-    
+    <header class="w-full bg-white  sticky-nav">
+        <section class="bg-[#d3da4b37] pt-1 pb-3">
+            <nav class="lg:w-11/12 flex justify-between mx-auto items-center mt-4 pt-4">
+                <div>
+                    <button id="home"
+                        class="py-3 px-8 bg-[#B4F461] p-10 text-xl font-normal rounded-lg hidden md:block"><a
+                            href="">Blog</a></button>
+                </div>
+                <div class="flex items-center text-xl font-normal">
+                    <img src="assets/logo.png" alt="">
+                    <h1 class="ml-2"><a href="home.html">Donate Bangladesh</a></h1>
+                </div>
+                <div class="flex items-center text-xl font-normal">
+                    <img class="mr-2" src="assets/coin.png" alt="">
+                    <h1 id="main-blance">5500</h1>
+                    <span class="hidden md:block">.00 BDT</span>
+                </div>
+
+            </nav>
+        </section>
+        <div class="mt-20 md:mt-10 flex">
+            <div class="mx-auto">
+                <button id="donation-btn"
+                    class="py-3 px-8 bg-[#B4F461] text-xl font-normal rounded-lg mr-4">Donation</button>
+                <button id="history-btn"
+                    class="py-3 px-8 bg-transparent text-xl font-normal rounded-lg border">History</button>
+            </div>
+
+        </div>
+    </header>
 </body>
 </html>
